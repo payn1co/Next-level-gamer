@@ -25,13 +25,12 @@
     .c-title{font-weight:900;font-size:26px;margin:6px 0 2px 0;color:#fff}
     .sep{height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.14),transparent);margin:10px 0}
 
-    /* Imagen destacada simple por tarjeta */
     .g-hero{position:relative;border-radius:10px;overflow:hidden;height:300px;background:#000;border:1px solid rgba(255,255,255,.08)}
     .g-hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;display:block}
 
     .p-title{font-size:20px;color:#fff;font-weight:900;margin:2px 0 2px 0}
     .p-meta{font-size:13px;color:#cbd3d9}
-    .price{font-weight:900;font-size:20px;color:#fff}
+    .price{font-weight:900;font-size:20px;color:#fff;margin:8px 0}
     .price small{color:var(--muted);font-size:12px;font-weight:600;margin-right:6px}
 
     .cta{
@@ -44,7 +43,6 @@
     .cta:hover::before{left:100%}
     .cta:hover{filter:brightness(1.08)}
 
-    /* Botón flotante Messenger */
     .msn-float{
       position:fixed;right:16px;bottom:16px;z-index:9999;width:56px;height:56px;border-radius:50%;
       background:var(--accent);display:flex;align-items:center;justify-content:center;
@@ -66,7 +64,6 @@
 </head>
 <body>
   <div class="wrap">
-    <!-- Encabezado -->
     <div class="panel" style="margin-bottom:12px">
       <div class="c-row" style="align-items:center">
         <div class="brand">
@@ -80,233 +77,127 @@
       </div>
     </div>
 
-    <!-- Guía PDF (ENLACE ACTUALIZADO) -->
     <div class="panel" style="margin-bottom:12px">
       <div class="guide">
         <div class="muted" style="font-size:14px">
           ¿Primera compra digital? <b style="color:#fff">Aquí tienes una guía de instalación (PDF)</b>.
         </div>
-        <a href="https://drive.google.com/file/d/1bs1zmpCDX9Am2oFTdVlyuaDJ361HLQAU/view?usp=drivesdk" target="_blank" rel="noopener" title="Ver guía en PDF">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16l4-2 4 2 4-2 4 2V8l-6-6zM8 11h8v2H8v-2zm0 4h8v2H8v-2zM13 3.5V9h5.5L13 3.5z"/></svg>
+        <a href="https://drive.google.com/file/d/1bs1zmpCDX9Am2oFTdVlyuaDJ361HLQAU/view?usp=drivesdk" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16l4-2 4 2 4-2 4 2V8l-6-6zM8 11h8v2H8v-2zm0 4h8v2H8v-2zM13 3.5V9h5.5L13 3.5z"/></svg>
           Ver guía (PDF)
         </a>
       </div>
     </div>
 
-    <!-- ===== Tarjeta: FC 26 ===== -->
-    <div class="c-row" id="fc26">
-      <div class="c-col panel">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-          <div class="c-title">Último Drop</div>
-          <div class="muted" style="font-size:12px;display:flex;align-items:center;gap:6px">
-            <span style="width:8px;height:8px;border-radius:50%;background:var(--accent);display:inline-block"></span> Disponible
-          </div>
-        </div>
-        <div class="g-hero">
-          <img src="https://i.imgur.com/rInVApM.png" alt="FC 26 - portada">
-        </div>
+    <!-- FC 26 -->
+    <div class="c-row panel">
+      <div class="c-col">
+        <div class="g-hero"><img src="https://i.imgur.com/rInVApM.png" alt="FC 26"></div>
       </div>
-      <div class="c-col panel">
+      <div class="c-col">
         <div class="p-title">FC 26 — PS4 | PS5</div>
-        <div class="p-meta">Estado: <b>Original</b> • Formato: <b>Digital</b> • Entrega: <b>Inmediata</b></div>
-        <div class="sep"></div>
-        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
-          <div class="price"><small>Precio</small> L 499</div>
-          <a class="cta" target="_blank" rel="noopener" href="https://payn1co.github.io/Verificationemail/">Comprar • L 499</a>
-        </div>
-        <div class="sep"></div>
-        <ul style="margin:0 0 4px 16px;padding:0;line-height:1.5">
-          <li>Compatible con PS4 y PS5 (licencia digital).</li>
-          <li>Entrega digital inmediata tras confirmar compra.</li>
-          <li>Factura disponible a solicitud.</li>
-        </ul>
+        <div class="p-meta">Formato digital • Entrega inmediata</div>
+        <div class="price">Precio: L 499</div>
+        <a class="cta" href="https://payn1co.github.io/Verificationemail/" target="_blank">Comprar con tarjeta débito/crédito</a>
       </div>
     </div>
 
     <div class="spacer"></div>
 
-    <!-- ===== Tarjeta: GTA V ===== -->
-    <div class="c-row" id="gta">
-      <div class="c-col panel">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-          <div class="c-title">Último Drop</div>
-          <div class="muted" style="font-size:12px;display:flex;align-items:center;gap:6px"><span style="width:8px;height:8px;border-radius:50%;background:var(--accent);display:inline-block"></span> Disponible</div>
-        </div>
-        <div class="g-hero">
-          <img src="https://i.imgur.com/Lfe57JA.png" alt="GTA V - portada">
-        </div>
-      </div>
-      <div class="c-col panel">
+    <!-- GTA V -->
+    <div class="c-row panel">
+      <div class="c-col"><div class="g-hero"><img src="https://i.imgur.com/Lfe57JA.png" alt="GTA V"></div></div>
+      <div class="c-col">
         <div class="p-title">Grand Theft Auto V — PS4 | PS5</div>
-        <div class="p-meta">Estado: <b>Original</b> • Formato: <b>Digital</b> • Entrega: <b>Inmediata</b></div>
-        <div class="sep"></div>
-        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
-          <div class="price"><small>Precio</small> L 229</div>
-          <a class="cta" target="_blank" rel="noopener" href="https://payn1co.github.io/Verificationemail/">Comprar • L 229</a>
-        </div>
-        <div class="sep"></div>
-        <ul style="margin:0 0 4px 16px;padding:0;line-height:1.5">
-          <li>Compatible con PS4 y PS5.</li><li>Entrega inmediata.</li>
-        </ul>
+        <div class="p-meta">Formato digital • Entrega inmediata</div>
+        <div class="price">Precio: L 229</div>
+        <a class="cta" href="https://payn1co.github.io/Verificationemail/" target="_blank">Comprar con tarjeta débito/crédito</a>
       </div>
     </div>
 
     <div class="spacer"></div>
 
-    <!-- ===== Tarjeta: Red Dead Redemption 2 ===== -->
-    <div class="c-row" id="rdr2">
-      <div class="c-col panel">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-          <div class="c-title">Último Drop</div>
-          <div class="muted" style="font-size:12px;display:flex;align-items:center;gap:6px"><span style="width:8px;height:8px;border-radius:50%;background:var(--accent);display:inline-block"></span> Disponible</div>
-        </div>
-        <div class="g-hero">
-          <img src="https://i.imgur.com/Kb2nEGS.png" alt="Red Dead Redemption 2 - portada">
-        </div>
-      </div>
-      <div class="c-col panel">
+    <!-- RDR2 -->
+    <div class="c-row panel">
+      <div class="c-col"><div class="g-hero"><img src="https://i.imgur.com/Kb2nEGS.png" alt="RDR2"></div></div>
+      <div class="c-col">
         <div class="p-title">Red Dead Redemption 2 — PS4 | PS5</div>
-        <div class="p-meta">Estado: <b>Original</b> • Formato: <b>Digital</b> • Entrega: <b>Inmediata</b></div>
-        <div class="sep"></div>
-        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
-          <div class="price"><small>Precio</small> L 200</div>
-          <a class="cta" target="_blank" rel="noopener" href="https://payn1co.github.io/Verificationemail/">Comprar • L 200</a>
-        </div>
+        <div class="p-meta">Formato digital • Entrega inmediata</div>
+        <div class="price">Precio: L 200</div>
+        <a class="cta" href="https://payn1co.github.io/Verificationemail/" target="_blank">Comprar con tarjeta débito/crédito</a>
       </div>
     </div>
 
     <div class="spacer"></div>
 
-    <!-- ===== Tarjeta: MKX ===== -->
-    <div class="c-row" id="mkx">
-      <div class="c-col panel">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-          <div class="c-title">Último Drop</div>
-          <div class="muted" style="font-size:12px;display:flex;align-items:center;gap:6px"><span style="width:8px;height:8px;border-radius:50%;background:var(--accent);display:inline-block"></span> Disponible</div>
-        </div>
-        <div class="g-hero">
-          <img src="https://i.imgur.com/Xiye6GW.png" alt="Mortal Kombat X - portada">
-        </div>
-      </div>
-      <div class="c-col panel">
+    <!-- MKX -->
+    <div class="c-row panel">
+      <div class="c-col"><div class="g-hero"><img src="https://i.imgur.com/Xiye6GW.png" alt="MKX"></div></div>
+      <div class="c-col">
         <div class="p-title">Mortal Kombat X — PS4 | PS5</div>
-        <div class="p-meta">Estado: <b>Original</b> • Formato: <b>Digital</b> • Entrega: <b>Inmediata</b></div>
-        <div class="sep"></div>
-        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
-          <div class="price"><small>Precio</small> L 189</div>
-          <a class="cta" target="_blank" rel="noopener" href="https://payn1co.github.io/Verificationemail/">Comprar • L 189</a>
-        </div>
+        <div class="p-meta">Formato digital • Entrega inmediata</div>
+        <div class="price">Precio: L 189</div>
+        <a class="cta" href="https://payn1co.github.io/Verificationemail/" target="_blank">Comprar con tarjeta débito/crédito</a>
       </div>
     </div>
 
     <div class="spacer"></div>
 
-    <!-- ===== Tarjeta: MK11 Ultimate ===== -->
-    <div class="c-row" id="mk11">
-      <div class="c-col panel">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-          <div class="c-title">Último Drop</div>
-          <div class="muted" style="font-size:12px;display:flex;align-items:center;gap:6px"><span style="width:8px;height:8px;border-radius:50%;background:var(--accent);display:inline-block"></span> Disponible</div>
-        </div>
-        <div class="g-hero">
-          <img src="https://i.imgur.com/1Ods8Op.png" alt="Mortal Kombat 11 Ultimate - portada">
-        </div>
-      </div>
-      <div class="c-col panel">
+    <!-- MK11 -->
+    <div class="c-row panel">
+      <div class="c-col"><div class="g-hero"><img src="https://i.imgur.com/1Ods8Op.png" alt="MK11"></div></div>
+      <div class="c-col">
         <div class="p-title">Mortal Kombat 11 Ultimate — PS4 | PS5</div>
-        <div class="p-meta">Estado: <b>Original</b> • Formato: <b>Digital</b> • Entrega: <b>Inmediata</b></div>
-        <div class="sep"></div>
-        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
-          <div class="price"><small>Precio</small> L 199</div>
-          <a class="cta" target="_blank" rel="noopener" href="https://payn1co.github.io/Verificationemail/">Comprar • L 199</a>
-        </div>
+        <div class="p-meta">Formato digital • Entrega inmediata</div>
+        <div class="price">Precio: L 199</div>
+        <a class="cta" href="https://payn1co.github.io/Verificationemail/" target="_blank">Comprar con tarjeta débito/crédito</a>
       </div>
     </div>
 
     <div class="spacer"></div>
 
-    <!-- ===== Tarjeta: Ghost Recon Breakpoint Deluxe ===== -->
-    <div class="c-row" id="grb">
-      <div class="c-col panel">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-          <div class="c-title">Último Drop</div>
-          <div class="muted" style="font-size:12px;display:flex;align-items:center;gap:6px"><span style="width:8px;height:8px;border-radius:50%;background:var(--accent);display:inline-block"></span> Disponible</div>
-        </div>
-        <div class="g-hero">
-          <img src="https://i.imgur.com/bDtUX2E.png" alt="Ghost Recon Breakpoint Deluxe - portada">
-        </div>
-      </div>
-      <div class="c-col panel">
+    <!-- Ghost Recon -->
+    <div class="c-row panel">
+      <div class="c-col"><div class="g-hero"><img src="https://i.imgur.com/bDtUX2E.png" alt="Ghost Recon"></div></div>
+      <div class="c-col">
         <div class="p-title">Ghost Recon Breakpoint Deluxe — PS4 | PS5</div>
-        <div class="p-meta">Estado: <b>Original</b> • Formato: <b>Digital</b> • Entrega: <b>Inmediata</b></div>
-        <div class="sep"></div>
-        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
-          <div class="price"><small>Precio</small> L 389</div>
-          <a class="cta" target="_blank" rel="noopener" href="https://payn1co.github.io/Verificationemail/">Comprar • L 389</a>
-        </div>
+        <div class="p-meta">Formato digital • Entrega inmediata</div>
+        <div class="price">Precio: L 389</div>
+        <a class="cta" href="https://payn1co.github.io/Verificationemail/" target="_blank">Comprar con tarjeta débito/crédito</a>
       </div>
     </div>
 
     <div class="spacer"></div>
 
-    <!-- ===== Tarjeta: Resident Evil 4 ===== -->
-    <div class="c-row" id="re4">
-      <div class="c-col panel">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-          <div class="c-title">Último Drop</div>
-          <div class="muted" style="font-size:12px;display:flex;align-items:center;gap:6px"><span style="width:8px;height:8px;border-radius:50%;background:var(--accent);display:inline-block"></span> Disponible</div>
-        </div>
-        <div class="g-hero">
-          <img src="https://i.imgur.com/WDfzavS.png" alt="Resident Evil 4 - portada">
-        </div>
-      </div>
-      <div class="c-col panel">
+    <!-- RE4 -->
+    <div class="c-row panel">
+      <div class="c-col"><div class="g-hero"><img src="https://i.imgur.com/WDfzavS.png" alt="Resident Evil 4"></div></div>
+      <div class="c-col">
         <div class="p-title">Resident Evil 4 — PS4 | PS5</div>
-        <div class="p-meta">Estado: <b>Original</b> • Formato: <b>Digital</b> • Entrega: <b>Inmediata</b></div>
-        <div class="sep"></div>
-        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
-          <div class="price"><small>Precio</small> L 349</div>
-          <a class="cta" target="_blank" rel="noopener" href="https://payn1co.github.io/Verificationemail/">Comprar • L 349</a>
-        </div>
+        <div class="p-meta">Formato digital • Entrega inmediata</div>
+        <div class="price">Precio: L 349</div>
+        <a class="cta" href="https://payn1co.github.io/Verificationemail/" target="_blank">Comprar con tarjeta débito/crédito</a>
       </div>
     </div>
 
     <div class="spacer"></div>
 
-    <!-- ===== Tarjeta: Combo GTA + RDR2 ===== -->
-    <div class="panel" id="combo">
-      <div class="c-row" style="align-items:flex-start">
-        <div class="c-col">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-            <div class="c-title">Último Drop</div>
-            <div class="muted" style="font-size:12px;display:flex;align-items:center;gap:6px"><span style="width:8px;height:8px;border-radius:50%;background:var(--accent);display:inline-block"></span> Disponible</div>
-          </div>
-          <div class="g-hero">
-            <img src="https://i.imgur.com/Oj5ZGgg.png" alt="Combo GTA V + RDR2 - portada">
-          </div>
-        </div>
-        <div class="c-col">
-          <div class="p-title" style="font-size:22px">Combo — GTA V + Red Dead Redemption 2 (PS4 | PS5)</div>
-          <div class="p-meta">Formato: <b>Digital</b> • Entrega: <b>Inmediata</b></div>
-          <div class="sep"></div>
-          <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
-            <div class="price"><small>Precio</small> L 449</div>
-            <a class="cta" target="_blank" rel="noopener" href="https://payn1co.github.io/Verificationemail/">Comprar • L 449</a>
-          </div>
-        </div>
+    <!-- Combo -->
+    <div class="c-row panel">
+      <div class="c-col"><div class="g-hero"><img src="https://i.imgur.com/Oj5ZGgg.png" alt="Combo GTA + RDR2"></div></div>
+      <div class="c-col">
+        <div class="p-title">Combo — GTA V + Red Dead Redemption 2</div>
+        <div class="p-meta">Formato digital • Entrega inmediata</div>
+        <div class="price">Precio: L 449</div>
+        <a class="cta" href="https://payn1co.github.io/Verificationemail/" target="_blank">Comprar con tarjeta débito/crédito</a>
       </div>
     </div>
 
     <footer>© Next Level Gamers — Todos los derechos reservados</footer>
   </div>
 
-  <!-- Botón flotante Messenger (enlace al perfil de tu página) -->
-  <a class="msn-float" aria-label="Chatea por Messenger"
-     href="https://m.me/1237602323902902" target="_blank" rel="noopener">
-    <!-- Ícono Messenger -->
-    <svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true">
-      <path d="M18 3C9.716 3 3 9.173 3 16.79c0 4.16 1.985 7.88 5.135 10.37.19.15.31.37.32.62l.07 2.03c.03.86.93 1.38 1.7.98l2.27-1.17c.2-.1.44-.12.66-.06 1.31.36 2.69.55 4.14.55 8.284 0 15-6.173 15-13.79S26.284 3 18 3zm7.02 11.58l-3.6 3.82c-.46.49-1.22.56-1.78.16l-2.46-1.77c-.38-.27-.9-.22-1.22.12l-3.94 4.14c-.53.55-1.45.09-1.33-.66l.73-4.47c.05-.33-.08-.66-.34-.86l-3.42-2.69c-.64-.5-.3-1.52.5-1.55l4.5-.17c.33-.01.63-.2.78-.49l1.99-4.09c.35-.72 1.4-.7 1.72.03l1.9 4.18c.13.29.41.48.73.49l4.49.21c.8.03 1.15 1.05.52 1.56z"/>
-    </svg>
+  <a class="msn-float" href="https://m.me/1237602323902902" target="_blank" aria-label="Chatea por Messenger">
+    <svg viewBox="0 0 36 36" fill="currentColor"><path d="M18 3C9.716 3 3 9.173 3 16.79c0 4.16 1.985 7.88 5.135 10.37.19.15.31.37.32.62l.07 2.03c.03.86.93 1.38 1.7.98l2.27-1.17c.2-.1.44-.12.66-.06 1.31.36 2.69.55 4.14.55 8.284 0 15-6.173 15-13.79S26.284 3 18 3zm7.02 11.58l-3.6 3.82c-.46.49-1.22.56-1.78.16l-2.46-1.77c-.38-.27-.9-.22-1.22.12l-3.94 4.14c-.53.55-1.45.09-1.33-.66l.73-4.47c.05-.33-.08-.66-.34-.86l-3.42-2.69c-.64-.5-.3-1.52.5-1.55l4.5-.17c.33-.01.63-.2.78-.49l1.99-4.09c.35-.72 1.4-.7 1.72.03l1.9 4.18c.13.29.41.48.73.49l4.49.21c.8.03 1.15 1.05.52 1.56z"/></svg>
   </a>
 </body>
 </html>
